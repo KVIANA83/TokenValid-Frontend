@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css"/>
+  <title>Recuperar senha</title>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1 class="titulo">
+      TokenValid
+    </h1>
+  </header>
+  
+  <!-- Corpo do site -->
+  <main>
+    <section class="recuperar-senha">
+      <h2>Recuperar Senha</h2>
+      <p>Escolha um método para recuperar sua senha:</p>
+      
+      <!-- Formulário de recuperação de senha -->
+      <form id="recuperarSenhaForm">
+        <label for="metodo">Método de Recuperação:</label>
+        <select id="metodo" name="metodo" required>
+          <option value="email">E-mail</option>
+          <option value="celular">Celular</option>
+        </select>
+
+        <div id="campoEmail" style="display: none;">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" />
+        </div>
+        
+        <div id="campoCelular" style="display: none;">
+          <label for="celular">Celular:</label>
+          <input type="tel" id="celular" name="celular" placeholder="Digite seu celular" />
+        </div>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      
+      <!-- Mensagem de feedback -->
+      <div id="mensagem"></div>
+    </section>
+  </main>
+  
+  <!-- Rodapé -->
+  <footer>
+    <div class="rodape">© 2024 TokenValid. Todos os direitos reservados.</div>
+  </footer>
+  
+  <!-- JAVASCRIPT -->
+  <script src="../js/script.js"></script>
+</body>
+</html>
