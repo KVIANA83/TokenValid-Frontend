@@ -23,4 +23,17 @@ TokenValid é uma aplicação web desenvolvida para facilitar o gerenciamento de
    ```bash
    git clone https://github.com/seuusuario/tokenvalid-frontend.git
 
-   
+
+## Estrutura do Projeto
+
+tokenvalid-frontend/
+│
+├── css/
+│   └── style.css         # Estilos da aplicação
+│
+├── js/
+│   └── script.js         # Funcionalidades em JavaScript
+│
+├── index.html            # Página principal
+│
+└── README.md             # Documentação do projeto
