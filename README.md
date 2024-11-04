@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-TokenValid é uma aplicação web desenvolvida para facilitar o gerenciamento de autenticação e recuperação de senhas. O front-end foi criado utilizando HTML, CSS e JavaScript, proporcionando uma interface amigável e intuitiva para os usuários.
+TokenValid é uma aplicação web projetada para facilitar o gerenciamento de autenticação e recuperação de senhas. O front-end é desenvolvido utilizando HTML, CSS e JavaScript, proporcionando uma interface amigável e intuitiva para os usuários.
 
 ## Funcionalidades
 
@@ -19,13 +19,23 @@ TokenValid é uma aplicação web desenvolvida para facilitar o gerenciamento de
 
 ## Instalação
 
+Para instalar e executar o projeto localmente, siga os passos abaixo:
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seuusuario/tokenvalid-frontend.git
+   ```
 
+2. Acesse o diretório do projeto:
+   ```bash
+   cd tokenvalid-frontend
+   ```
+
+3. Abra o arquivo `index.html` em seu navegador preferido.
 
 ## Estrutura do Projeto
 
+```plaintext
 tokenvalid-frontend/
 │
 ├── css/
@@ -37,3 +47,8 @@ tokenvalid-frontend/
 ├── index.html            # Página principal
 │
 └── README.md             # Documentação do projeto
+```
+
+## Contribuição
+
+Se você deseja contribuir para o projeto, sinta-se à vontade para abrir issues ou pull requests no repositório.
